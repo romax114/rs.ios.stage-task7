@@ -71,7 +71,7 @@
 
 ![Task/Login_Success_-__Secure_Input-1.svg](Task/Login_Success_-__Secure_Input-1.svg)
 
-Если пользователь начинает вводить последовательность, когда элемент `secure` находится в состоянии `error`, элемент `secure` переходит в состояние `ready`. 
+Если пользователь начинает вводить последовательность, когда элемент `secure` находится в состоянии `error`, элемент `secure` переходит в состояние `default`. 
 
 Если пользователь ввёл корректную последовательность, элемент `secure` переходит в состояние `success`. На экране отображается модальное окно с заголовком "*Welcome*" и сообщением "*You are successfuly authorized!*". Интерактивная кнопка имеет заголовок "*Refresh*". 
 
@@ -135,7 +135,7 @@
 
 ![Task/Atom_Text_Fields.svg](Task/Atom_Text_Fields.svg)
 
-Состояние `active`, поле активно
+Состояние `ready`, поле активно
 
 ![Task/Atom_Text_Fields_Error.svg](Task/Atom_Text_Fields_Error.svg)
 
